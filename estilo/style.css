@@ -52,6 +52,9 @@ nav{
 
 main{
     background-color: whitesmoke;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
 }
 
 main h1{
@@ -62,6 +65,10 @@ main h1{
 main h2{
     color:var(--cor2);
     font-family:var(--fontAndroid);
+}
+
+main img{
+    width: 100%;
 }
 
 footer{
