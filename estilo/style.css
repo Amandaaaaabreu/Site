@@ -56,12 +56,59 @@ header > p {
     max-width: 700px;
     padding-right: 400px;
     padding-left:400px;
-    text-shadow: 2px 2px 0px rgba(6, 45, 3, 0.684);
+    text-shadow: 2px 2px 0px rgba(9, 52, 6, 0.684);
 
 }
 
 nav{
     background-color: var(--cor4);
+    padding: 15px;
+    box-shadow: 0px 6px 6px rgba(12, 37, 1, 0.863);
+}
+
+nav > input[type="search"] {
+    float: right;
+    margin-right: 0px;
+    margin-top: -5px;
+    border: 3px solid #043d10;
+    padding: 5px;
+    border-radius: 20px;
+    width: 250px;
+    font-size: 18px;
+    font-family: var(--fontePadrao);
+  }
+
+  .meu-botao {
+    float: right;
+    margin-right: 10px;
+    background-color: var(--cor2); /* Define a cor de fundo */
+    color: #fff; /* Define a cor do texto */
+    font-weight: bold;
+    border: none; /* Remove a borda padrão */
+    border-radius: 15px; /* Arredonda as bordas */
+    padding: 6px 9px; /* Adiciona espaço interno */
+    font-size: 16px; /* Define o tamanho da fonte */
+    cursor: pointer; /* Define o cursor ao passar o mouse sobre o botão */
+  }
+  
+  .meu-botao:hover {
+    background-color: var(--cor1); /* Define a cor de fundo ao passar o mouse */
+  }
+  
+
+nav > a {
+    color: whitesmoke;
+    padding: 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    cursor: grab;
+}
+
+nav > a:hover{
+    background-color: var(--cor2);
+    color: var(--cor4);
 }
 
 main{
