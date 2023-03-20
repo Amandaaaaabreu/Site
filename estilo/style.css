@@ -34,12 +34,14 @@ body{
 
 header{
     background-color: var(--cor1);
+    min-height: 140px;
+    text-align: center;
 }
 
 header > h1{
     color: whitesmoke;
     font-family: var(--fonteDestaque);
-    text-align: center;
+   
 }
 
 header > p {
