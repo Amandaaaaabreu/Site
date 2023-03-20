@@ -71,6 +71,12 @@ main img{
     width: 100%;
 }
 
+main img.pequena{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
 footer{
     background-color: var(--cor4);
     color: whitesmoke;
