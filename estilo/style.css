@@ -125,6 +125,12 @@ main{
 
 }
 
+iframe{
+    width: 400px;
+    display: flex;
+    align-items: center;
+}
+
 main h1{
     color:var(--cor2);
     font-family:var(--fontAndroid);
