@@ -85,7 +85,7 @@ nav > input[type="search"] {
     color: #fff; /* Define a cor do texto */
     font-weight: bold; /* Deixa em negrito */
     border: none; /* Remove a borda padrão */
-    border-radius: 15px; /* Arredonda as bordas */
+    border-radius: 11px; /* Arredonda as bordas */
     padding: 6px 9px; /* Adiciona espaço interno */
     font-size: 16px; /* Define o tamanho da fonte */
     cursor: pointer; /* Define o cursor ao passar o mouse sobre o botão */
@@ -93,6 +93,7 @@ nav > input[type="search"] {
   
   .meu-botao:hover {
     background-color: var(--cor1); /* Define a cor de fundo ao passar o mouse */
+    color: var(--cor4);
   }
   
 
