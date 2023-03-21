@@ -87,7 +87,7 @@ nav > input[type="search"] {
     border: none; /* Remove a borda padrão */
     border-radius: 11px; /* Arredonda as bordas */
     padding: 6px 9px; /* Adiciona espaço interno */
-    font-size: 16px; /* Define o tamanho da fonte */
+    font-size: 15px; /* Define o tamanho da fonte */
     cursor: pointer; /* Define o cursor ao passar o mouse sobre o botão */
   }
   
