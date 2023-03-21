@@ -81,9 +81,9 @@ nav > input[type="search"] {
   .meu-botao {
     float: right;
     margin-right: 10px;
-    background-color: var(--cor2); /* Define a cor de fundo */
+    background-color: #0f523c; /* Define a cor de fundo */
     color: #fff; /* Define a cor do texto */
-    font-weight: bold;
+    font-weight: bold; /* Deixa em negrito */
     border: none; /* Remove a borda padrão */
     border-radius: 15px; /* Arredonda as bordas */
     padding: 6px 9px; /* Adiciona espaço interno */
