@@ -190,4 +190,6 @@ iframe{
 footer{
     background-color: var(--cor4);
     color: whitesmoke;
+    text-align: center;
+    
 }
