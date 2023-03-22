@@ -186,9 +186,21 @@ iframe{
     align-items: center;
 }
 
+aside{
+    background-color: var(--cor3);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+aside > ul{
+    list-style-position: inside; /* bolinha do link para dentro do aside*/
+    columns: 2;
+}
+
 
 footer{
-    background-color: var(--cor4);
+    background-color: var(--cor2);
     color: whitesmoke;
     text-align: center;
     font-size: 0.8em;
@@ -204,5 +216,6 @@ footer > p > a {
 footer a:hover{
     cursor: grab;
     text-decoration: underline;
+    color: var(--cor4);
     
 }
