@@ -184,6 +184,11 @@ main img.pequena{
     margin: auto;
 }
 
+div.video{
+    background-color: var(--cor2);
+    margin-bottom: 30px;
+}
+
 iframe{
     width: 400px;
     display: flex;
