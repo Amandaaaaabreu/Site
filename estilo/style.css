@@ -191,5 +191,10 @@ footer{
     background-color: var(--cor4);
     color: whitesmoke;
     text-align: center;
-    
+    font-size: 0.8em;
+    padding: 0px;
+}
+
+footer > p > a {
+
 }
