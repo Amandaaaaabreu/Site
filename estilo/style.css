@@ -196,5 +196,13 @@ footer{
 }
 
 footer > p > a {
+    color: whitesmoke;
+    font-weight: bolder;
+    text-decoration: none;
+}
 
+footer a:hover{
+    cursor: grab;
+    text-decoration: underline;
+    
 }
