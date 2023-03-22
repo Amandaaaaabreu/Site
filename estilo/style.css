@@ -30,7 +30,7 @@
 
 
 body{
-    background-color: var(--cor5);
+    background-color: rgba(194, 239, 239, 0.2);
     font-family: var(--fontePadrao);
 }
 
