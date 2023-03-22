@@ -65,7 +65,7 @@ header > p {
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     text-shadow: 2px 2px 0px rgba(9, 52, 6, 0.684);
 
 }
@@ -86,6 +86,8 @@ nav > input[type="search"] {
     width: 250px;
     font-size: 18px;
     font-family: var(--fontePadrao);
+    
+    
   }
 
   .meu-botao {
@@ -99,6 +101,11 @@ nav > input[type="search"] {
     padding: 6px 9px; /* Adiciona espaço interno */
     font-size: 16px; /* Define o tamanho da fonte */
     cursor: pointer; /* Define o cursor ao passar o mouse sobre o botão */
+    /*margin: auto;
+    margin-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;*/
+
   }
   
   .meu-botao:hover {
