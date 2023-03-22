@@ -193,8 +193,18 @@ aside{
 
 }
 
+aside h3{
+    background-color: var(--cor2);
+    margin: -10px -10px 0 -10px;
+    padding: 3px;
+    border-radius: 10px 10px 0px 0px ;
+    text-align: center;
+    color: whitesmoke;
+    font-family: var(--fonteDestaque);
+}
+
 aside > ul{
-    list-style-type: '\1F5F8';
+    list-style-type: '\1F5F8\00A0';
     list-style-position: inside; /* bolinha do link para dentro do aside*/
     columns: 2;
 }
